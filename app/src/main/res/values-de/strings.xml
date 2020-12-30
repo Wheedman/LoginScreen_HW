@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginBildschirm_HeroWorkout</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Einloggen</string>
+    <string name="action_sign_in_short">Einloggen</string>
+    <string name="welcome">"Willkommen !"</string>
+    <string name="invalid_email">Keine gültige E-Mail Adresse</string>
+    <string name="invalid_password_length">Password muss mehr als 11 Zeichen enthalten</string>
+    <string name="invalid_password_capital_letter">Password muss mindestens 1 Großbuchstaben enthalten</string>
+    <string name="invalid_password_special_character">Password muss mindestens 1 Sonderzeichen enthalten</string>
+    <string name="invalid_password_digit">Password muss mindestens 1 Zahl enthalten</string>
+    <string name="login_failed">"Login fehlgeschlagen"</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoginScreen_HeroWorkout</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_email">Not a valid email address</string>
+    <string name="invalid_password_length">Password must be >11 characters</string>
+    <string name="invalid_password_capital_letter">Password requires at least one capital letter</string>
+    <string name="invalid_password_special_character">Password requires at least one special character</string>
+    <string name="invalid_password_digit">Password must requires at least one number</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
