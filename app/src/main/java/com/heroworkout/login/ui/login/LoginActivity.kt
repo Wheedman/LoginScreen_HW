@@ -15,7 +15,7 @@ import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
 import com.heroworkout.login.R
 
 
@@ -30,9 +30,8 @@ class LoginActivity : AppCompatActivity() {
 
         val username = findViewById<EditText>(R.id.username)
         val password = findViewById<EditText>(R.id.password)
+        // val passwordWrapper = findViewById<TextInputLayout>(R.id.etPasswordLayout)
         val login = findViewById<Button>(R.id.login)
-
-        password.setTransformationMethod(PasswordTransformationMethod())
 
 
         loginViewModel = ViewModelProvider(this, LoginViewModelFactory())
@@ -49,6 +48,8 @@ class LoginActivity : AppCompatActivity() {
             }
             if (loginState.passwordError != null) {
                 password.error = getString(loginState.passwordError)
+                // passwordWrapper.error = getString(loginState.passwordError)
+                // TODO: Change validation according to register or login handling
             }
         })
 
